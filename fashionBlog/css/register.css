@@ -1,0 +1,66 @@
+body {
+    background: url('../img/denim.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.signUp {
+    background-color: white;
+    opacity: 0.8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 460px;
+    height: 600px;
+    margin-left: -230px; /* width divided by 2 */
+    margin-top: -300px;
+    font-family:  sans-serif;
+}
+
+.signUp form hr {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.signUp input {
+    margin-left: 130px;
+    width: 200px;
+    height: 27px;
+    font: 90%/2.5 sans-serif;
+    border-radius: 7px;
+    border-color: lightgray;
+}
+
+
+
+.signUp span {
+    margin-left: 35%;
+}
+
+.signUp h1 {
+    text-align: center;
+    margin-top: 20px;
+    padding: 0;
+}
+
+#gender input {
+    width: 20px;
+    margin-bottom: 20px;
+    margin-left: 110px;
+}
+
+#submit {
+    background-color: darkred;
+    color: white;
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    margin-left: 10%;
+}
+#checkbox {
+    width: 20px;
+    margin-bottom: 20px;
+    margin-left: 110px;
+    border-color: darkred;
+}

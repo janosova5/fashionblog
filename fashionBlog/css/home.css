@@ -1,0 +1,102 @@
+body {
+    font: 15px/1 sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: lavenderblush;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: darksalmon 4px solid;
+}
+
+header a {
+    color: darksalmon;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0px 20px 20px 20px;
+}
+
+header #title {
+    color: crimson;
+    float: left;
+    padding: 5px;
+}
+
+header #title h1 {
+    margin: 0;
+}
+
+header #title h3 {
+    margin-left: 30px;
+}
+
+header nav {
+    float: right;
+    margin-top: 55px;
+}
+
+#wallpaper {
+    min-height: 450px;
+    background: url('../img/wallpaper2.jpg') no-repeat;
+    border-bottom: darksalmon 4px solid;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#wallpaper .container {
+    color: white;
+}
+
+#wallpaper h1 {
+    margin-left: 5%;
+    margin-top: 150px;
+}
+
+#wallpaper h3 {
+    float: right;
+}
+
+#wallpaper form {
+    font: 15px/3.0 sans-serif;
+    float: right;
+    margin-top: 20px;
+}
+
+#wallpaper input {
+    min-height: 33px;
+    min-width: 180px;
+    font-size: 80%;
+    border-radius: 10px;
+}
+
+#wallpaper .button1 {
+    float: right;
+    min-height: 33px;
+    margin-right: 50%;
+    min-width: 10%;
+    font-size: 80%;
+    background-color: darksalmon;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
+
+
